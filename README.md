@@ -64,5 +64,5 @@ Note: The dataset is derived from real-world transaction records of Meituan, one
 ## Notes
 - Input data should be placed under data/ (train.xlsx, predict.xlsx).
 - All outputs (figures, models, tables) will be automatically saved under the outputs/ directory.
-- Due to data confidentiality, the original dataset is not publicly released.
+- Due to data confidentiality, the original csv dataset is not publicly released.
 
