@@ -8,8 +8,10 @@ It includes data preprocessing, feature engineering, model training, evaluation,
 and interpretation.
 
 ## Project Motivation
-This project aims to understand the factors influencing coupon redemption behavior 
-and to build reproducible and interpretable machine learning models on real-world data.
+This project aims to understand the factors influencing coupon redemption behavior in large-scale online platforms
+and to build interpretable and reproducible machine learning models on real-world data.
+
+Note: The dataset is derived from real-world transaction records of Meituan, one of the largest on-demand service platforms in China, focusing on coupon redemption behavior.
 
 ## Methodology
 - Data cleaning with explicit business rules (e.g., handling zero-denominator ratios)
