@@ -22,9 +22,9 @@ Note: The dataset is derived from real-world transaction records of Meituan, one
 
 ## Reproducibility
 - Python 3.9.13
-- virtualenv-based isolated environment
+- virtualenv-based isolated environment (PyCharm)
+- Requirements.txt
 - Fixed random seeds across data split, CV, and model training
-- All experiments executed via Jupyter Notebook within a PyCharm-managed environment
 
 ## Project Structure
 - data/: input datasets used for training and prediction  
