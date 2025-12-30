@@ -14,7 +14,7 @@ and to build reproducible and interpretable machine learning models on real-worl
 ## Methodology
 - Data cleaning with explicit business rules (e.g., handling zero-denominator ratios)
 - Feature engineering (e.g., coupon value-to-threshold ratio)
-- Multiple classification models (Random Forest, XGBoost, LightGBM)
+- Multiple classification models (Random Forest, XGBoost, LightGBM, etc.)
 - Fixed random seeds and stratified cross-validation for reproducibility
 - Model interpretability using feature importance and SHAP analysis
 
