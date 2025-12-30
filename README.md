@@ -42,11 +42,26 @@ Note: The dataset is derived from real-world transaction records of Meituan, one
 - AdaBoost
 
 ## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
-2. Run:
-   python src/model_pipeline.py
 
+### Environment
+- Python 3.9.13  
+- Virtual environment (PyCharm-managed)  
+- Dependencies listed in `requirements.txt`
+
+### Steps
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+2. Run EDA analysis:
+   ```bash
+   python src/eda_analysis.py
+3. Train models:
+   ```bash
+   python src/train_model.py
+4. Generate predictions:
+   ```bash
+   python src/predict.py
+   
 ## Notes
-- Dataset not included due to privacy.
-- All results are reproducible with provided scripts.
+- Input data should be placed under data/ (train.xlsx, predict.xlsx).
+- All outputs (figures, models, tables) will be automatically saved under the outputs/ directory.
