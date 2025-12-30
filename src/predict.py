@@ -5,9 +5,9 @@ import joblib
 
 # 配置路径（请确认路径正确）
 PATHS = {
-    "model": r"E:\Python_Project\严谨结果\LightGBM_model.pkl",
-    "scaler": r"E:\Python_Project\严谨结果\LightGBM_scaler.pkl",
-    "data": r"E:\Python_Project\1\yuceji.xlsx"
+    "model": "outputs/model.pkl",
+    "scaler": "outputs/scaler.pkl",
+    "data": "data/predict.xlsx"
 }
 
 # ========== 1) 加载文件 ==========
