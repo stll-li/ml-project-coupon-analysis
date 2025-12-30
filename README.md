@@ -27,10 +27,9 @@ Note: The dataset is derived from real-world transaction records of Meituan, one
 - All experiments executed via Jupyter Notebook within a PyCharm-managed environment
 
 ## Project Structure
-- data/: raw and schema files
-- notebooks/: exploratory analysis
-- src/: training pipeline
-- outputs/: figures and model results
+- data/: input datasets used for training and prediction  
+- src/: core pipeline scripts (EDA, training, prediction)  
+- outputs/: generated figures, trained models, and evaluation results  
 
 ## Models Used
 - KNN
