@@ -27,8 +27,8 @@ warnings.filterwarnings("ignore")
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
-DATA_PATH = r"E:\Python_Project\meituan.xlsx"
-OUTPUT_DIR = r"E:\Python_Project\严谨结果"
+DATA_PATH = "data/train.xlsx"
+OUTPUT_DIR = "outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 SEED = 42  # 统一随机种子（核心）
